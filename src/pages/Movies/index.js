@@ -1,10 +1,12 @@
 import React from 'react';
 import {View, Text} from 'react-native';
+import Header from '../../components/Header';
+import {Container} from './styles';
 
 export default function Movies() {
   return (
-    <View>
-      <Text>Movies</Text>
-    </View>
+    <Container>
+      <Header title="Minha lista" />
+    </Container>
   );
 }
